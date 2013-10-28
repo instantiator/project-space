@@ -1,0 +1,185 @@
+<html> 
+<head> 
+<title>project space</title> 
+<style type="text/css">
+body 
+{ 
+	background-color: white; 
+	font-family: sans-serif;
+} 
+ 
+#maindiv
+{
+	width:700px; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 100px;
+}
+ 
+#maintable
+{
+	border-collapse: collapse;
+	width: 700px; 
+	box-shadow:0px 5px 20px #888888;
+}
+ 
+td
+{
+	font-size: 32pt;
+	padding: 5px 5px 5px 5px;
+}
+ 
+tr
+{
+	-webkit-transition: all 0.25s  ease-in-out;
+}
+ 
+tr.highlightYELLOW
+{
+	background-color: #ffffcc;
+}
+tr.highlightRED
+{
+	background-color: #ffcccc;
+}
+tr.highlightGREEN
+{
+	background-color: #ccffcc;
+}
+tr.highlightCYAN
+{
+	background-color: #ccffff;
+}
+tr.highlightGREY
+{
+	background-color: #dddddd;
+}
+
+tr.normal
+{
+	background-color: #ffffff;
+}
+ 
+span.red
+{
+	color: #aa0000;
+}
+ 
+span.yellow
+{
+	color: #aaaa00;
+}
+ 
+span.green
+{
+	color: #00aa00;
+}
+
+span.cyan
+{
+	color: #00aaaa;
+}
+span.grey
+{
+	color: #aaaaaa;
+}
+
+ 
+.ToolText { position:relative; } 
+.ToolTextHover { position:relative;} 
+.ToolText span#tooltext { display: none; } 
+ 
+.ToolTextHover span#tooltext
+{ 
+  display:block; 
+  position:absolute; 
+  border:1px solid #888822; 
+  top:1.3em; 
+  left:5px; 
+  background-color: #ffffcc; 
+  padding: 5px 5px 5px 5px;
+  font-size: 24pt;
+  color: black; 
+  text-align: center; 
+  box-shadow:0px 5px 20px #888888;
+} 
+</style>
+</head> 
+<body> 
+
+<div id="maindiv"> 
+
+<table id="maintable"> 
+
+    <tr onMouseOver="this.className='highlightRED'" onMouseOut="this.className='normal'"> 
+        <td>1</td> 
+        <td><span class="red">Advance your personal project</span></td> 
+	</tr> 
+
+    <tr onMouseOver="this.className='highlightYELLOW'" onMouseOut="this.className='normal'"> 
+        <td>2</td> 
+        <td><span class="yellow">Reap the wisdom of others</span></td> 
+	</tr> 
+
+    <tr onMouseOver="this.className='highlightCYAN'" onMouseOut="this.className='normal'"> 
+        <td>3</td> 
+        <td><span class="cyan">
+            <span class="ToolText" 
+                onMouseOver="javascript:this.className='ToolTextHover'" 
+                onMouseOut="javascript:this.className='ToolText'">
+                Socialise
+                <span id="tooltext">also eat pizza</span> 
+            </span>
+            </span>
+        </td> 
+	</tr> 
+
+    <tr onMouseOver="this.className='highlightGREY'" onMouseOut="this.className='normal'"> 
+        <td>4</td> 
+        <td><span class="grey">...</span></td> 
+	</tr> 
+
+    <tr onMouseOver="this.className='highlightGREEN'" onMouseOut="this.className='normal'"> 
+        <td>5</td> 
+        <td><span class="green">Profit!</span></td> 
+	</tr> 
+
+</table>
+
+<p>
+You're a bright spark with an idea and you want to see it through. Working on personal
+development projects isn't exactly sociable. You'd like to work in a friendly atmosphere
+with some like-minded people you can bounce ideas off or form partnerships with.
+</p>
+
+<p>
+<b>Here's the deal.</b> Once a month we meet up to work on our personal projects.
+Everybody's like you - a developer working on something they'd like to make real, and
+eventually we'll sell our work or set it free!
+</p>
+
+<h1>You're invited</h1>
+
+<p>
+Who invited you? Tell them you're in! Find out when and where, and bring the following kit:
+</p>
+
+<p>
+    <ul>
+        <li>your laptop and your power cable,</li>
+        <li>all the stationery you think you'll need,</li>
+        <li>some cash for the pizza and drinks whip-round.</li>
+    </ul>
+</p>
+
+<p>
+... and that's it! It really is that simple!
+</p>
+
+<p style="float:right;">
+Lewis
+</p>
+
+</div>
+</body>
+</html>
